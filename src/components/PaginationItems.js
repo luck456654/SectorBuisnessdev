@@ -21,7 +21,7 @@ const dispatch = useDispatch();
       {items.map((item) => (
         <div 
         id={item?.props.children} 
-        className={(item?.props.children==props?.page)?"activePage":null} 
+        className={(item?.props.children==data?.setpage.page)?"activePage":null} 
         onClick={()=>dispatch((setPages(item?.props.children,data?.setpage.count)))}>{item}</div>
         ))}
       </div>
