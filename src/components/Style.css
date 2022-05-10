@@ -44,8 +44,7 @@
       
 }
 body{
-    
-   
+   background-color: white;
 }
 .container{
   max-width: 87%;
@@ -189,4 +188,7 @@ cursor: pointer;
 }
 .link{
   cursor: pointer;
+}
+.container__th,.container__tr, .container__desc{
+  cursor:pointer
 }
